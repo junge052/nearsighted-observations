@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nearsighted Observations</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/yzu4nrs.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <img id="header-logo" src="assets/eye-logo.png" alt="Logo" />
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav id="nav-bar">
+    <a href="#section1" class="nav-item" data-target="section1">-1</a>
+    <div class="nav-dot"></div>
+    <a href="#section2" class="nav-item" data-target="section2">-2</a>
+    <div class="nav-dot"></div>
+    <a href="#section3" class="nav-item" data-target="section3">-3</a>
+    <div class="nav-dot"></div>
+    <a href="#section4" class="nav-item" data-target="section4">-4</a>
+    <div class="nav-dot"></div>
+    <a href="#section5" class="nav-item" data-target="section5">-5</a>
+    <div class="nav-dot"></div>
+    <a href="#section6" class="nav-item" data-target="section6">-6</a>
+    <div class="nav-dot"></div>
+    <a href="#section7" class="nav-item" data-target="section7">-7</a>
+    <div class="nav-dot"></div>
+    <a href="#section8" class="nav-item" data-target="section8">-8</a>
+  </nav>
+
+  <!-- INTRO SCENE -->
+  <div id="intro">
+    <img id="intro-logo" src="assets/eye-logo.png" alt="Logo" />
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+    <h1 id="site-title" data-text="NEARSIGHTED OBSERVATIONS">NEARSIGHTED OBSERVATIONS</h1>
+
+    <!-- SECTION 1 -->
+    <section id="section1">
+      <div class="interview-instructions">hover, then click to secure</div>
+      <div class="interview-container">
+        <img src="submission-photos/IMG_4237 - Penelope Magana.jpeg" alt="Interview 1">
+        <div class="interview-text">
+          <h3>Penelope on navigating -4.75 myopia</h3>
+          <p class="question">Does having perfect vision mean you perceive the world more accurately?</p>
+          <p class="answer" data-hint-image="submission-photos/IMG_2845 - annie hong.jpeg" data-next-section="#section2">
+            No, they might take their vision for granted. Then again, everyone takes vision for granted and misses out on the little things.
+          </p>
+          <p class="question">How do you feel in spaces where you can’t see far ahead?</p>
+          <p class="answer" data-hint-image="submission-photos/IMG_2845 - annie hong.jpeg" data-next-section="#section2">
+            I try to stay to myself when I can't see. However, it's almost comforting not being able to see everything or anyone as I tend to overthink. It's almost like I feel shrunken in those spaces.
+          </p>
+           <p class="question">Do you ever feel like your mind sees more clearly than your eyes?</p>
+          <p class="answer" data-hint-image="submission-photos/IMG_2845 - annie hong.jpeg" data-next-section="#section2">
+           I think depending on how vivid the memory is, is how clear the memory is. Most memories are blurrier than how I saw them. 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section id="section2">
+      <div class="interview-container">
+        <img src="submission-photos/IMG_2845 - annie hong.jpeg" alt="Interview 2">
+        <div class="interview-text">
+          <h3>Annie on navigating -4.75 myopia</h3>
+          <p class="question">How do you think vision affects memory?</p>
+          <p class="answer" data-next-section="#section3">
+            It is the most significant factor when it comes to remembering something
+          </p>
+          <p class="question">How does your memory of something compare to seeing it again now? Does one feel more true? What connection do you think your nearsightedness has with this, or do you think there is no correlation at all?</p>
+          <p class="answer" data-next-section="#section3">i don't remember what it's like to see something with better eyesight in comparison to my eyesight right now, so not much of a correlation</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section id="section3">
+      <div class="interview-container">
+        <img src="submission-photos/IMG_5418 - Olivia Lam.jpeg" alt="Interview 3">
+        <div class="interview-text">
+          <h3>Olivia on navigating -3.25, -3.00 vision</h3>
+          <p class="question">How do you think vision affects memory?</p>
+          <p class="answer" data-hint-image="submission-photos/your-fourth-image.jpg" data-next-section="#section4">
+            I think it affects the way we perceive situations, which as a result impacts how we remember significant moments.
+          </p>
+          <p class="question">Do you ever imagine details that you couldn't see clearly in real life?</p>
+          <p class="answer" data-hint-image="submission-photos/your-fourth-image.jpg" data-next-section="#section4">
+            Yes, I think it is natural for our brains to want to fill in the gaps that we aren't able to visually make out.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Add sections 4-8 here -->
+    <section id="section4">
+      <div class="interview-container">
+        <img src="submission-photos/IMG_2190 - Janice Lee.jpeg" alt="Interview 3">
+        <div class="interview-text">
+          <h3>Janice on navigating -4.5, -5.5 vision</h3>
+          <p class="question">How do you think vision affects memory?</p>
+          <p class="answer" data-hint-image="submission-photos/your-fourth-image.jpg" data-next-section="#section4">
+            The better vision, the more detailed the memory
+          </p>
+          <p class="question">How does physical distance affect your ability to connect with people or places?</p>
+          <p class="answer" data-hint-image="submission-photos/your-fourth-image.jpg" data-next-section="#section4">
+            Larger distance > lack of attention to details > hindered ability to connect
+          </p>
+           <p class="question">How do you feel in spaces where you can't see far ahead?</p>
+          <p class="answer" data-hint-image="submission-photos/your-fourth-image.jpg" data-next-section="#section4">
+            makes me more attentive to things closer to me
+          </p>
+          <p class="question">When did you first notice your vision changing? How did it make you feel?</p>
+          <p class="answer" data-hint-image="submission-photos/your-fourth-image.jpg" data-next-section="#section4">
+            As a kid, did not feel great to lose sight
+          </p>
+        </div>
+      </div>
+    </section>
+  
+    <section id="section5">
+      <div class="interview-container">
+        <img src="submission-photos/nicole.jpeg" alt="Interview 5">
+        <div class="interview-text">
+          <h3>Nicole on navigating -6.00 myopia</h3>
+          <p class="question">How do you think vision affects memory?</p>
+          <p class="answer" data-hint-image="submission-photos/your-fourth-image.jpg" data-next-section="#section4">
+            Without proper visual context, memory wouldn't be accurate. 
+          </p>
+          <p class="question">Do you remember how things looked before you started wearing glasses or contacts?</p>
+          <p class="answer" data-hint-image="submission-photos/your-fourth-image.jpg" data-next-section="#section4">
+            I started wearing glasses in the 3rd grade; I remember the board started getting blurrier and blurrier. But before, I think everything was clear. 
+          </p>
+           <p class="question">Does blurry vision ever make memories feel more emotional or nostalgic?</p>
+          <p class="answer" data-hint-image="submission-photos/your-fourth-image.jpg" data-next-section="#section4">
+            No, my vision is too bad so it is too blurry to make smth seem emotional or nostalgic.
+          </p>
+          <p class="question">How does physical distance affect your ability to connect with people or places?</p>
+          <p class="answer" data-hint-image="submission-photos/your-fourth-image.jpg" data-next-section="#section4">
+            If im not close to someone, I feel as if i cannot talk and connect. 
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
